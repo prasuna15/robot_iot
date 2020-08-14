@@ -30,7 +30,7 @@ void loop()
 {
   int smokesensor=digitalRead(9);
   Serial.println(smokesensor);
- if(smokesensor==0){
+ if(smokesensor>=500){
    digitalWrite(6 ,LOW);
     bsc.println("SMOKE IS DETECTED!!!.. PLEASE ELERT");
      bsc.println("ROBOT STOPPED");
