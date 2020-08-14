@@ -142,7 +142,7 @@ if(bsc.available() > 0)
 }
   
   
- if(distance<=50)
+ if(distance<=500)
  {
   bsc.println("Obstacle detected...!!...ROBOT STOPPED");
     
